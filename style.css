@@ -1,0 +1,99 @@
+body{
+    background-color: #141414;
+    font-family: inter;
+    text-align: center;
+}
+.first{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: #1f1f1f;
+    border-radius: 9px;
+    width: 20%;
+    max-width: 100%;
+}
+img{
+       border-radius: 100px;
+       max-width: 100px;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h4{
+    color: rgb(196, 248, 42);
+    text-align: center;
+    margin-top: -20px;
+    font-size: 12px;
+}
+p{
+    color: white;
+    font-size: 12px;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+    color: white;
+    font-family: inter;
+    font-weight: bold;
+    border: none;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: block;
+    min-height: 35px;
+    min-width: 100%;
+    max-width: 100%;
+}
+button:hover{
+    background-color: rgb(196, 248, 42);
+    color: black;
+    font-weight: bold;
+    font-family: inter;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.star{
+    margin-bottom: -30px;
+}
+
+@media (max-width: 768px) {
+    .first{
+        width: 60%;
+        margin-top: 95px;
+    }
+    button{
+        margin-left: -31px;
+        margin-right: 20px;
+        background-color: #333333;
+        color: white;
+        font-family: inter;
+        font-weight: bold;
+        border: none;
+        font-size: 12px;
+        white-space: nowrap;
+        margin-top: 12px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        padding-left: 50%;
+        padding-right: 100px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        display: block;
+        min-height: 35px;
+        min-width: 130%;
+    }
+    .mushu{
+        padding-right: 20px;
+        padding-left:20px;
+    }
+}
